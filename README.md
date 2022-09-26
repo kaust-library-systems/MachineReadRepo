@@ -30,7 +30,7 @@ Running GROBID as container
 
 ```
 docker pull lfoppiano/grobid:0.7.1
-docker run -t --rm -name grobid_docker -p 8070:8070 lfoppiano/grobid:0.7.1
+docker run -t --rm --name grobid_docker -p 8070:8070 lfoppiano/grobid:0.7.1
 ```
 
 ## S2ORC JSON
